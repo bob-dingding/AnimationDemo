@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+duration:     持续时间
+fromDegrees   动画起始时物件的角度  浮点数型值
+toDegrees     动画结束时物件旋转的角度 可以大于360度
+pivotX        相对于物件的X坐标的开始位置
+pivotY         相对于物件的Y坐标的开始位置
+interpolator  加速器,动画的显示速度，系统提供了几种
+ startOffset， 动画多次执行的间隔时间，如果只执行一次，执行前会暂停这段时间，单位毫秒
+     repeatCount，动画重复的计数，动画将会执行该值+1次，值为infinite，重复执行
+     repeatMode，动画重复的模式，reverse为反向，当第偶次执行时，动画方向会相反。restart为重新执行，方向不变
+
+-->
+
+
+<rotate xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="3000"
+        android:fromDegrees="0"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+        android:pivotX="0%"
+        android:pivotY="0%"
+        android:toDegrees="+350"
+    />

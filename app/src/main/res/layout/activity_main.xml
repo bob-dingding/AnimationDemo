@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="demo.zjt.com.animationdemo.MainActivity">
+
+<Button
+    android:id="@+id/btn_frame_animation"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:text="帧动画"/>
+    <Button
+        android:id="@+id/btn_tweened_animation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="补间动画"/>
+    <Button
+        android:id="@+id/btn_property_animation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="属性动画"/>
+
+</LinearLayout>

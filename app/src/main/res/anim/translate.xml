@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- duration ：持续时间
+     fromXDelta 起始时X坐标上的位置
+     fromYDelta  起始时Y坐标上的位置
+     toXDelta    动画结束时X坐标上的位置
+     toYDelta    动画结束时Y坐标上的位置
+     startOffset， 动画多次执行的间隔时间，如果只执行一次，执行前会暂停这段时间，单位毫秒
+     repeatCount，动画重复的计数，动画将会执行该值+1次,值为infinite，重复执行
+     repeatMode，动画重复的模式，reverse为反向，当第偶次执行时，动画方向会相反。restart为重新执行，方向不变
+
+-->
+<translate xmlns:android="http://schemas.android.com/apk/res/android"
+           android:duration="2000"
+           android:fromXDelta="30"
+           android:fromYDelta="30"
+           android:toXDelta="300"
+           android:toYDelta="30"
+           android:startOffset="2000"
+           android:repeatCount="infinite"
+           android:repeatMode="reverse">
+
+</translate>

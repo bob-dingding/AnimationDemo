@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--duration 持续时间
+fromXScale   动画起始时X坐标上的伸缩尺寸
+fromYScale   动画起始时Y坐标上的伸缩尺寸
+toXScale     动画结束时Y坐标上的伸缩尺寸
+toYScale     动画结束时Y坐标上的伸缩尺寸
+以上值都是     0.0表示收缩到没有
+              1.0表示正常无伸缩
+             值小于1.0表示收缩
+             值大于1.0表示放大
+pivotX=50%   距离动画所在view自身左边缘的距离是整个view宽度的50%
+pivotY=50%   也就表示距离动画view自身上边缘的距离是整个view高度的50%
+ startOffset， 动画多次执行的间隔时间，如果只执行一次，执行前会暂停这段时间，单位毫秒
+     repeatCount，动画重复的计数，动画将会执行该值+1次，值为infinite，重复执行
+     repeatMode，动画重复的模式，reverse为反向，当第偶次执行时，动画方向会相反。restart为重新执行，方向不变
+-->
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+       android:duration="1000"
+       android:fromXScale="0.0"
+       android:fromYScale="0.0"
+       android:pivotX="0%"
+       android:pivotY="0%"
+       android:toXScale="1.0"
+       android:toYScale="1.0"
+    />
+

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- duration 持续时间  单位毫秒
+      fromAlpha  开始透明度
+      toAlpha    结束的透明度
+      startOffset， 动画多次执行的间隔时间，如果只执行一次，执行前会暂停这段时间，单位毫秒
+     repeatCount，动画重复的计数，动画将会执行该值+1次，值为infinite，重复执行
+     repeatMode，动画重复的模式，reverse为反向，当第偶次执行时，动画方向会相反。restart为重新执行，方向不变
+      interpolator 主要作用是可以控制动画的变化速率也就是快慢，系统已经为我们提供了一些Interpolator。也可以自定义
+-->
+<alpha xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="1000"
+    android:fromAlpha="0.1"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:toAlpha="1.0"/>
+
